@@ -36,5 +36,5 @@ This site is designed to showcase makeup artistry, attract clients, and simplify
 
 ## Credits
 
-Built by Athira Saji for Suja's Red Rose Makeup Studio.  
+Built by **Athira Saji** for Suja's Red Rose Makeup Studio.  
 Images and content used with permission.
