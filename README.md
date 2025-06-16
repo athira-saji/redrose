@@ -1,4 +1,5 @@
 # Suja's Red Rose Makeup Studio
+[Live Demo](https://sujasredrose.netlify.app/)
 
 A modern, elegant, and fully responsive portfolio website for Suja's Red Rose Makeup Studio.  
 This site is designed to showcase makeup artistry, attract clients, and simplify contact and booking.
