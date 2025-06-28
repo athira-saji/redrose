@@ -9,6 +9,9 @@ function type() {
       setTimeout(type, 100);
     }
 }
+
+window.addEventListener("DOMContentLoaded", type);
+
 const menuToggle = document.getElementById('mobile-menu');
 const navbar = document.getElementById('navbar');
 const navLinks = navbar.querySelectorAll('a');
