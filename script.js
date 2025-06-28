@@ -1,3 +1,14 @@
+const text = "Elegance. Effortless. Eternal.";
+const taglineEl = document.getElementById("tagline");
+let   i = 0;
+
+function type() {
+    if (i < text.length) {
+      taglineEl.textContent += text.charAt(i);
+      i++;
+      setTimeout(type, 100);
+    }
+}
 const menuToggle = document.getElementById('mobile-menu');
 const navbar = document.getElementById('navbar');
 const navLinks = navbar.querySelectorAll('a');
