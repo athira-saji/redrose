@@ -1,16 +1,18 @@
-const text = "Elegance. Effortless. Eternal.";
-const taglineEl = document.getElementById("tagline");
-let   i = 0;
+document.addEventListener('DOMContentLoaded', () => {
+  const text       = "Elegance. Effortless. Eternal.";
+  const taglineEl  = document.getElementById("tagline");
+  let index        = 0;
 
-function type() {
-    if (i < text.length) {
-      taglineEl.textContent += text.charAt(i);
-      i++;
+  function type () {
+    if (index < text.length) {
+      taglineEl.textContent += text.charAt(index);
+      index++;
       setTimeout(type, 100);
     }
-}
+  }
 
-window.addEventListener("DOMContentLoaded", type);
+  type();  // start typing
+});
 
 const menuToggle = document.getElementById('mobile-menu');
 const navbar = document.getElementById('navbar');
